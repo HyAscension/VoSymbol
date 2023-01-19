@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://www.vosymbol.com">
-    <img src="images/favicon" alt="Logo" width="75" height="75">
+    <img src="images/favicon.png" alt="Logo" width="75" height="75">
   </a>
 
   <h1 align="center">VoSymbol</h1>
