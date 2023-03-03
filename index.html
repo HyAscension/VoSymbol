@@ -221,6 +221,7 @@
                                  <li><input id="advan1" type="submit" value="Great Quality" /></li>
                                  <li><input id="advan2" type="submit" value="Creative" /></li>
                                  <li><input id="advan3" type="submit" value="Swift" /></li>
+                                 <li><input id="advan4" type="submot" value="Minimalist" /></li>
                               </ul>
                            </div>
                            <div id="advan-points" class="col-xl-9 col-lg-9 col-md-9 col-sm-12 padding_left0">
@@ -356,9 +357,8 @@
                <div class="copyright">
                   <div class="container">
                      <div class="row">
-                        <div class="col-md-12">
-                           <p>Copyright 2019 All Right Reserved By <a href="https://html.design/"> Free  html Templates</a></p>
-                        </div>
+                        <div class="col-md-12" id="footer">
+                           
                      </div>
                   </div>
                </div>
@@ -437,6 +437,11 @@
       <!-- google map js -->
       <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
       <!-- end google map js -->
+
+      <script>
+         var copyrightYear = `<p>&copy Hy & <a href="https://html.design/"> Free html Templates</a> 2022 - ` + new Date().getFullYear() + `.</p>`;
+         document.getElementById('footer').innerHTML = copyrightYear;
+      </script>
    </body>
 </html>
 
